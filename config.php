@@ -17,12 +17,12 @@
 	// As far as I know, OTX is based on TFS_03, so make sure TFS version is configured TFS_03
 	$config['CustomVersion'] = false;
 
-	$config['site_title'] = 'ArcansOrigins - 2023';
+	$config['site_title'] = 'Poke Amigos do Cla';
 	$config['site_title_context'] = 'Beta';
-	$config['site_url'] = "https://10.0.0.123/";
+	$config['site_url'] = "https://185.130.61.146/";
 
 	// Path to server folder without / Example: C:\Users\Alvaro\Documents\GitHub\forgottenserver
-	$config['server_path'] = '/home/server/'; 
+	$config['server_path'] = '/root/pokegame/'; 
 
 	// ------------------------ \\
 	// MYSQL CONNECTION DETAILS \\
@@ -35,10 +35,10 @@
 	$config['sqlPassword'] = '';
 
 	// The database name to connect to. (This is usually same as username).
-	$config['sqlDatabase'] = 'pokefans';
+	$config['sqlDatabase'] = 'pokenumb';
 
 	// Hostname is usually localhost or 127.0.0.1.
-	$config['sqlHost'] = 'localhost';
+	$config['sqlHost'] = '127.0.0.1';
 
 	// QR code authenticator Only works with TFS 1.2+
 	$config['twoFactorAuthenticator'] = false;
